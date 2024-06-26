@@ -37,5 +37,9 @@
       }
     ]
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "New Document Title",
+    "permalink": "/blog/doc-two"
+  }
 }

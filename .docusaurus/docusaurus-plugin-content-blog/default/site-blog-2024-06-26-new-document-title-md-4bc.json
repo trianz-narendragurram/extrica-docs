@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/doc-two",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-06-26-new-document-title.md",
+  "source": "@site/blog/2024-06-26-new-document-title.md",
+  "title": "New Document Title",
+  "description": "this is new document for testing with some attachment.",
+  "date": "2024-06-26T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "dummy",
+      "permalink": "/blog/tags/dummy"
+    }
+  ],
+  "readingTime": 0.05,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "narendra gurram",
+      "title": "New document with image",
+      "url": "https://github.com/trianz-narendragurram",
+      "imageUrl": "https://github.com/trianz-narendragurram"
+    }
+  ],
+  "frontMatter": {
+    "title": "New Document Title",
+    "slug": "doc-two",
+    "tags": [
+      "dummy"
+    ],
+    "authors": [
+      {
+        "name": "narendra gurram",
+        "title": "New document with image",
+        "url": "https://github.com/trianz-narendragurram",
+        "imageUrl": "https://github.com/trianz-narendragurram"
+      }
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "New Document",
+    "permalink": "/blog/new-doc"
+  }
+}
