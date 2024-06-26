@@ -2,8 +2,8 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
+      "title": "first-blog-post",
+      "permalink": "/blog/2024/06/26/first-blog-post",
       "unlisted": false
     }
   ]

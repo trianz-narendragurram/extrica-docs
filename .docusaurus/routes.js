@@ -38,85 +38,100 @@ export default [
     exact: true
   },
   {
+    path: '/blog',
+    component: ComponentCreator('/blog', 'd8d'),
+    exact: true
+  },
+  {
+    path: '/blog/2024/06/26/first-blog-post',
+    component: ComponentCreator('/blog/2024/06/26/first-blog-post', 'd6e'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'f91'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '733'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '751'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '7e6'),
         routes: [
           {
-            path: '/',
-            component: ComponentCreator('/', '829'),
+            path: '/docs',
+            component: ComponentCreator('/docs', 'ba6'),
             routes: [
               {
-                path: '/category/tutorial---basics',
-                component: ComponentCreator('/category/tutorial---basics', 'd94'),
+                path: '/docs/category/tutorial---basics',
+                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/tutorial---extras',
-                component: ComponentCreator('/category/tutorial---extras', '681'),
+                path: '/docs/category/tutorial---extras',
+                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/congratulations',
-                component: ComponentCreator('/tutorial-basics/congratulations', 'e78'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/tutorial-basics/create-a-blog-post', '594'),
+                path: '/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/create-a-document',
-                component: ComponentCreator('/tutorial-basics/create-a-document', '843'),
+                path: '/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/create-a-page',
-                component: ComponentCreator('/tutorial-basics/create-a-page', '168'),
+                path: '/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/tutorial-basics/deploy-your-site', 'a31'),
+                path: '/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-basics/markdown-features',
-                component: ComponentCreator('/tutorial-basics/markdown-features', 'b36'),
+                path: '/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/tutorial-extras/manage-docs-versions', '3b5'),
+                path: '/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/tutorial-extras/translate-your-site', 'cae'),
+                path: '/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/',
-                component: ComponentCreator('/', 'fc9'),
+                path: '/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -125,6 +140,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
+    exact: true
   },
   {
     path: '*',

@@ -26,11 +26,13 @@ export default {
       "classic",
       {
         "docs": {
-          "routeBasePath": "/",
           "sidebarPath": "./sidebars.ts",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
-        "blog": false,
+        "blog": {
+          "showReadingTime": true,
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -51,6 +53,11 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Tutorial"
+        },
+        {
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
         },
         {
           "href": "https://github.com/facebook/docusaurus",

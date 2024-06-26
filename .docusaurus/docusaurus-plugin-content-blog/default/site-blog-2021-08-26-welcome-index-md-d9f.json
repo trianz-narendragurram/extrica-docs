@@ -57,6 +57,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "first-blog-post",
+    "permalink": "/blog/2024/06/26/first-blog-post"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"
