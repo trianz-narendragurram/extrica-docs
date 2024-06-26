@@ -1,4 +1,10 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "new-doc",
+      "permalink": "/blog/new-doc",
+      "unlisted": false
+    }
+  ]
 }

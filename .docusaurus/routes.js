@@ -38,6 +38,21 @@ export default [
     exact: true
   },
   {
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b8c'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
+    exact: true
+  },
+  {
+    path: '/blog/new-doc',
+    component: ComponentCreator('/blog/new-doc', '6eb'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
