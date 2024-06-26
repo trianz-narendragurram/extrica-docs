@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+  "editUrl": "https://github.com/trianz-narendragurram/extrica-docs/blog/2021-08-26-welcome/index.md",
   "source": "@site/blog/2021-08-26-welcome/index.md",
   "title": "Welcome",
   "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -57,10 +57,6 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
-    "title": "Blog 3",
-    "permalink": "/blog/blog2"
-  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"
