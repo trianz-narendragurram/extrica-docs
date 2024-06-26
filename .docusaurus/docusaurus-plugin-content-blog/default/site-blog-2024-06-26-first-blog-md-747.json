@@ -1,14 +1,41 @@
 {
-  "permalink": "/blog/2024/06/26/first-blog",
+  "permalink": "/blog/blog2",
   "editUrl": "https://github.com/trianz-narendragurram/extrica-docs/blog/2024-06-26-first-blog.md",
   "source": "@site/blog/2024-06-26-first-blog.md",
-  "title": "first-blog",
-  "description": "",
+  "title": "Blog2",
+  "description": "sfjknfjksaf afkajnnfjsakfn",
   "date": "2024-06-26T00:00:00.000Z",
-  "tags": [],
-  "readingTime": 0,
+  "tags": [
+    {
+      "inline": true,
+      "label": "blog",
+      "permalink": "/blog/tags/blog"
+    }
+  ],
+  "readingTime": 0.01,
   "hasTruncateMarker": false,
-  "authors": [],
-  "frontMatter": {},
+  "authors": [
+    {
+      "name": "narendra",
+      "title": "Narendra Gurram",
+      "url": "https://github.com/trianz-narendragurram",
+      "imageUrl": "https://github.com/trianz-narendragurram"
+    }
+  ],
+  "frontMatter": {
+    "title": "Blog2",
+    "slug": "blog2",
+    "tags": [
+      "blog"
+    ],
+    "authors": [
+      {
+        "name": "narendra",
+        "title": "Narendra Gurram",
+        "url": "https://github.com/trianz-narendragurram",
+        "imageUrl": "https://github.com/trianz-narendragurram"
+      }
+    ]
+  },
   "unlisted": false
 }

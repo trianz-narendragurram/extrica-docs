@@ -43,13 +43,23 @@ export default [
     exact: true
   },
   {
-    path: '/blog/2024/06/26/first-blog',
-    component: ComponentCreator('/blog/2024/06/26/first-blog', '742'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/blog/blog2',
+    component: ComponentCreator('/blog/blog2', '6f3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/blog',
+    component: ComponentCreator('/blog/tags/blog', '3e5'),
     exact: true
   },
   {
