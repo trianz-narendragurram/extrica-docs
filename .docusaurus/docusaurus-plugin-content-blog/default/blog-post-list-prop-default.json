@@ -7,6 +7,11 @@
       "unlisted": false
     },
     {
+      "title": "Document Title 6",
+      "permalink": "/blog/doc-6",
+      "unlisted": false
+    },
+    {
       "title": "New Document Title",
       "permalink": "/blog/doc-two",
       "unlisted": false
@@ -14,6 +19,11 @@
     {
       "title": "New Document",
       "permalink": "/blog/new-doc",
+      "unlisted": false
+    },
+    {
+      "title": "New Dodument Title 8",
+      "permalink": "/blog/new-doc-4",
       "unlisted": false
     }
   ]
