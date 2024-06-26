@@ -38,6 +38,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Document Title 3",
+    "permalink": "/blog/new-doc-3"
+  },
   "nextItem": {
     "title": "New Document",
     "permalink": "/blog/new-doc"

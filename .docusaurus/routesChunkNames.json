@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-400": {
+  "/blog-4c2": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blog-49-d-3bf"
+      },
       {
         "content": "content---blogc-72-f17"
       },
@@ -87,6 +90,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-new-doc-501-c5d"
   },
+  "/blog/new-doc-3-321": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-new-docace-449"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-new-doc-397-d-002"
+  },
   "/blog/tags-287": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
@@ -110,6 +124,19 @@
       }
     ],
     "__props": "__props---blog-tags-dummy-8-d-6-98c"
+  },
+  "/blog/tags/lorem-f26": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-49-d-3bf"
+      }
+    ],
+    "__props": "__props---blog-tags-lorem-0-aa-575"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
