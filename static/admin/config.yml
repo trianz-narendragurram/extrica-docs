@@ -31,7 +31,7 @@ collections:
         - { name: title, label: Title, widget: string }
         - { name: url, label: URL, widget: string }
         - { name: imageUrl, label: ImageURL, widget: string }
-- label: "Docs"
+- label: "docs"
   name: "docs"
   folder: "docs"
   create: true
