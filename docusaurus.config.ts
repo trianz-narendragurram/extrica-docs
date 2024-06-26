@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/trianz-narendragurram/extrica-docs/',
+            'https://github.com/trianz-narendragurram/extrica-docs/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/trianz-narendragurram/extrica-docs/',
+            'https://github.com/trianz-narendragurram/extrica-docs/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -64,12 +64,12 @@ const config: Config = {
         src: 'img/extrica-logo.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Tutorial',
+        },
         {to: '/blog', label: 'Docs', position: 'left'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',

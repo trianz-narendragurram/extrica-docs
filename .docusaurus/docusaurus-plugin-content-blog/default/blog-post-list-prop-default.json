@@ -1,0 +1,20 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Document Title 3",
+      "permalink": "/blog/new-doc-3",
+      "unlisted": false
+    },
+    {
+      "title": "New Document Title",
+      "permalink": "/blog/doc-two",
+      "unlisted": false
+    },
+    {
+      "title": "New Document",
+      "permalink": "/blog/new-doc",
+      "unlisted": false
+    }
+  ]
+}
