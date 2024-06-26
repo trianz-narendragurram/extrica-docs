@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-b8c": {
+  "/blog-b4a": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---blogdea-e4e"
+      },
       {
         "content": "content---blog-36-f-9f2"
       }
@@ -62,6 +65,17 @@
     },
     "__props": "__props---blog-archivef-81-229"
   },
+  "/blog/document-two-3a9": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-new-docace-449"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-document-two-318-3f7"
+  },
   "/blog/new-doc-6eb": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -72,6 +86,27 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-new-doc-906-b7e"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/dummy-279": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogdea-e4e"
+      }
+    ],
+    "__props": "__props---blog-tags-dummy-8-d-6-98c"
   },
   "/markdown-page-3d7": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",

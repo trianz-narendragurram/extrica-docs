@@ -10,5 +10,9 @@
   "hasTruncateMarker": false,
   "authors": [],
   "frontMatter": {},
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "New Document 2",
+    "permalink": "/blog/document-two"
+  }
 }

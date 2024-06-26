@@ -2,6 +2,11 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "New Document 2",
+      "permalink": "/blog/document-two",
+      "unlisted": false
+    },
+    {
       "title": "new-doc",
       "permalink": "/blog/new-doc",
       "unlisted": false
