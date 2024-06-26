@@ -1,5 +1,5 @@
 ---
-title: New Dodument Title 5
+title: New Dodument Title 6
 slug: new-doc-4
 tags:
   - lorem
