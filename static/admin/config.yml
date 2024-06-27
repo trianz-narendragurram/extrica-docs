@@ -5,6 +5,8 @@ backend:
 
 site_url: https://extrica.ai
 logo_url: https://extrica.ai//themes/extrica/images/extrica/Extrica-Logo.svg
+editor:
+     preview: true
 
 # These lines should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
