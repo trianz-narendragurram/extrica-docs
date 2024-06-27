@@ -3,6 +3,9 @@ backend:
   branch: main
   repo: trianz-narendragurram/extrica-docs
 
+site_url: https://extrica.ai
+logo_url: https://extrica.ai//themes/extrica/images/extrica/Extrica-Logo.svg
+
 # These lines should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
