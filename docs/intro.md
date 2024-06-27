@@ -4,7 +4,7 @@ title: Document Title
 date: 2024-06-26T17:13:00.000Z
 thumbnail: /img/extrica-logo.svg
 ---
-# Tutorial Intro
+# Tutorial Introduction
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
